@@ -30,18 +30,16 @@ BluLedger Demo Banking Application
 - 
 ## Project Structure
 
+```text
 BluLedger-Automation-Framework/
 │
 ├── src/
-│   │
 │   ├── main/
 │   │   └── java/
 │   │       └── com/
 │   │           └── bluledgerautomation/
-│   │               │
 │   │               ├── base/
 │   │               │   └── BasePage.java
-│   │               │
 │   │               ├── pages/
 │   │               │   ├── LoginPage.java
 │   │               │   ├── HomePage.java
@@ -50,7 +48,6 @@ BluLedger-Automation-Framework/
 │   │               │   ├── TransferPage.java
 │   │               │   ├── TransferReviewPage.java
 │   │               │   └── TransactionPage.java
-│   │               │
 │   │               └── utils/
 │   │                   ├── ConfigReader.java
 │   │                   ├── ExcelUtil.java
@@ -61,21 +58,17 @@ BluLedger-Automation-Framework/
 │       ├── java/
 │       │   └── com/
 │       │       └── bluledgerautomation/
-│       │           │
 │       │           ├── base/
 │       │           │   └── BaseTest.java
-│       │           │
 │       │           ├── listeners/
 │       │           │   ├── TestListener.java
 │       │           │   └── RetryListener.java
-│       │           │
 │       │           ├── tests/
 │       │           │   ├── AuthTest.java
 │       │           │   ├── AccountTest.java
 │       │           │   ├── TransferTest.java
 │       │           │   ├── TransactionTest.java
 │       │           │   └── FormValidationTest.java
-│       │           │
 │       │           └── utils/
 │       │               └── RetryAnalyzer.java
 │       │
@@ -84,23 +77,13 @@ BluLedger-Automation-Framework/
 │           └── testdata.xlsx
 │
 ├── reports/
-│   └── ExtentReport.html
-│
 ├── screenshots/
-│   └── FailedTestScreenshots.png
-│
 ├── test-output/
-│   └── Default TestNG Reports
-│
 ├── pom.xml
 ├── testng.xml
 ├── README.md
 └── DESIGN_DOCUMENT.md
-
-reports/  
-screenshots/  
-testng.xml  
-pom.xml  
+```
 
 ## Test Modules Covered
 
