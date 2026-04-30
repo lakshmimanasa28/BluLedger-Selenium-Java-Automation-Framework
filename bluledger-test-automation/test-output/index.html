@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-BluLedger_Suite" class="navigator-link">
+              <span class="suite-name border-passed">BluLedger Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-BluLedger_Suite" class="navigator-link ">
+                    <span>C:\Users\manas\eclipse-workspace\bluledger-test-automation\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-BluLedger_Suite" class="navigator-link ">
+                    <span class="test-stats">5 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-BluLedger_Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-BluLedger_Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-BluLedger_Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-BluLedger_Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-BluLedger_Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods,   15 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-BluLedger_Suite" class="hide-methods passed suite-BluLedger_Suite"> (hide)</a> <!-- hide-methods passed suite-BluLedger_Suite -->
+                      <a href="#" panel-name="suite-BluLedger_Suite" class="show-methods passed suite-BluLedger_Suite"> (show)</a> <!-- show-methods passed suite-BluLedger_Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-BluLedger_Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.AuthTest" class="method navigator-link" hash-for-method="loginTest(92718463, wrong123, failure)">loginTest(92718463, wrong123, failure)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.AuthTest" class="method navigator-link" hash-for-method="loginTest(92718463, Harbour!92, success)">loginTest(92718463, Harbour!92, success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.AuthTest" class="method navigator-link" hash-for-method="loginTest(38451209, Jacaranda#47, success)">loginTest(38451209, Jacaranda#47, success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.AuthTest" class="method navigator-link" hash-for-method="loginTest(61844027, Quartz!61, success)">loginTest(61844027, Quartz!61, success)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.AuthTest" class="method navigator-link" hash-for-method="logoutTest">logoutTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.AccountTest" class="method navigator-link" hash-for-method="verifyAccountOverview">verifyAccountOverview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.TransferTest" class="method navigator-link" hash-for-method="verifyAmountInReviewPage">verifyAmountInReviewPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.FormValidationTest" class="method navigator-link" hash-for-method="verifyDestinationMandatory">verifyDestinationMandatory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.FormValidationTest" class="method navigator-link" hash-for-method="verifyEmptyFormValidation">verifyEmptyFormValidation</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.TransactionTest" class="method navigator-link" hash-for-method="verifyEmptySearch">verifyEmptySearch</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.TransferTest" class="method navigator-link" hash-for-method="verifyFundTransferFlow">verifyFundTransferFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.TransferTest" class="method navigator-link" hash-for-method="verifyInvalidAmount">verifyInvalidAmount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.TransferTest" class="method navigator-link" hash-for-method="verifyMandatoryFields">verifyMandatoryFields</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.FormValidationTest" class="method navigator-link" hash-for-method="verifyReferenceMandatory">verifyReferenceMandatory</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-BluLedger_Suite" title="com.bluledgerautomation.tests.TransactionTest" class="method navigator-link" hash-for-method="verifySearchTransaction">verifySearchTransaction</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-BluLedger_Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-BluLedger_Suite" class="panel BluLedger_Suite">
+          <div class="suite-BluLedger_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bluledgerautomation.tests.AuthTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(92718463, wrong123, failure)">
+                  </a> <!-- loginTest(92718463, wrong123, failure) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(92718463,wrong123,failure)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(92718463, Harbour!92, success)">
+                  </a> <!-- loginTest(92718463, Harbour!92, success) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(92718463,Harbour!92,success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(38451209, Jacaranda#47, success)">
+                  </a> <!-- loginTest(38451209, Jacaranda#47, success) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(38451209,Jacaranda#47,success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginTest(61844027, Quartz!61, success)">
+                  </a> <!-- loginTest(61844027, Quartz!61, success) -->
+                  <span class="method-name">loginTest</span>
+                  <span class="parameters">(61844027,Quartz!61,success)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutTest">
+                  </a> <!-- logoutTest -->
+                  <span class="method-name">logoutTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BluLedger_Suite-class-passed -->
+          <div class="suite-BluLedger_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bluledgerautomation.tests.FormValidationTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyDestinationMandatory">
+                  </a> <!-- verifyDestinationMandatory -->
+                  <span class="method-name">verifyDestinationMandatory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptyFormValidation">
+                  </a> <!-- verifyEmptyFormValidation -->
+                  <span class="method-name">verifyEmptyFormValidation</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyReferenceMandatory">
+                  </a> <!-- verifyReferenceMandatory -->
+                  <span class="method-name">verifyReferenceMandatory</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BluLedger_Suite-class-passed -->
+          <div class="suite-BluLedger_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bluledgerautomation.tests.TransferTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAmountInReviewPage">
+                  </a> <!-- verifyAmountInReviewPage -->
+                  <span class="method-name">verifyAmountInReviewPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyFundTransferFlow">
+                  </a> <!-- verifyFundTransferFlow -->
+                  <span class="method-name">verifyFundTransferFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyInvalidAmount">
+                  </a> <!-- verifyInvalidAmount -->
+                  <span class="method-name">verifyInvalidAmount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyMandatoryFields">
+                  </a> <!-- verifyMandatoryFields -->
+                  <span class="method-name">verifyMandatoryFields</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BluLedger_Suite-class-passed -->
+          <div class="suite-BluLedger_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bluledgerautomation.tests.AccountTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyAccountOverview">
+                  </a> <!-- verifyAccountOverview -->
+                  <span class="method-name">verifyAccountOverview</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BluLedger_Suite-class-passed -->
+          <div class="suite-BluLedger_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.bluledgerautomation.tests.TransactionTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyEmptySearch">
+                  </a> <!-- verifyEmptySearch -->
+                  <span class="method-name">verifyEmptySearch</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchTransaction">
+                  </a> <!-- verifySearchTransaction -->
+                  <span class="method-name">verifySearchTransaction</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-BluLedger_Suite-class-passed -->
+        </div> <!-- panel BluLedger_Suite -->
+        <div panel-name="test-xml-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\manas\eclipse-workspace\bluledger-test-automation\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;BluLedger Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.bluledgerautomation.listeners.TestListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.bluledgerautomation.listeners.RetryListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Auth Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bluledgerautomation.tests.AuthTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Auth Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Account Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bluledgerautomation.tests.AccountTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Account Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Transfer Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bluledgerautomation.tests.TransferTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Transfer Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Transaction Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bluledgerautomation.tests.TransactionTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Transaction Tests --&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;tests&quot; name=&quot;Form Validation Tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.bluledgerautomation.tests.FormValidationTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Form Validation Tests --&gt;
+&lt;/suite&gt; &lt;!-- BluLedger Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for BluLedger Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Auth Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Account Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Transfer Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Transaction Tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">Form Validation Tests (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for BluLedger Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for BluLedger Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_BluLedger_Suite');
+function tableData_BluLedger_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'verifyEmptySearch')
+data.setCell(0, 2, 'com.bluledgerautomation.tests.TransactionTest')
+data.setCell(0, 3, 14319);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'verifyAccountOverview')
+data.setCell(1, 2, 'com.bluledgerautomation.tests.AccountTest')
+data.setCell(1, 3, 13616);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifyInvalidAmount')
+data.setCell(2, 2, 'com.bluledgerautomation.tests.TransferTest')
+data.setCell(2, 3, 6108);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifyFundTransferFlow')
+data.setCell(3, 2, 'com.bluledgerautomation.tests.TransferTest')
+data.setCell(3, 3, 5023);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyAmountInReviewPage')
+data.setCell(4, 2, 'com.bluledgerautomation.tests.TransferTest')
+data.setCell(4, 3, 4148);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'logoutTest')
+data.setCell(5, 2, 'com.bluledgerautomation.tests.AuthTest')
+data.setCell(5, 3, 3878);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'verifyMandatoryFields')
+data.setCell(6, 2, 'com.bluledgerautomation.tests.TransferTest')
+data.setCell(6, 3, 3603);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginTest')
+data.setCell(7, 2, 'com.bluledgerautomation.tests.AuthTest')
+data.setCell(7, 3, 2918);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginTest')
+data.setCell(8, 2, 'com.bluledgerautomation.tests.AuthTest')
+data.setCell(8, 3, 2853);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'verifySearchTransaction')
+data.setCell(9, 2, 'com.bluledgerautomation.tests.TransactionTest')
+data.setCell(9, 3, 2836);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'verifyDestinationMandatory')
+data.setCell(10, 2, 'com.bluledgerautomation.tests.FormValidationTest')
+data.setCell(10, 3, 2629);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginTest')
+data.setCell(11, 2, 'com.bluledgerautomation.tests.AuthTest')
+data.setCell(11, 3, 2507);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'verifyReferenceMandatory')
+data.setCell(12, 2, 'com.bluledgerautomation.tests.FormValidationTest')
+data.setCell(12, 3, 2219);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'verifyEmptyFormValidation')
+data.setCell(13, 2, 'com.bluledgerautomation.tests.FormValidationTest')
+data.setCell(13, 3, 1921);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginTest')
+data.setCell(14, 2, 'com.bluledgerautomation.tests.AuthTest')
+data.setCell(14, 3, 1832);
+window.suiteTableData['BluLedger_Suite']= { tableData: data, tableDiv: 'times-div-BluLedger_Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 52 seconds</span>
+              <div id="times-div-BluLedger_Suite">
+              </div> <!-- times-div-BluLedger_Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for BluLedger Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-BluLedger_Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">2912 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AccountTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAccountOverview</span>
+                <span class="method-start">7980 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest(92718463, Harbour!92, success)</span>
+                <span class="method-start">8812 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">10666 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">14346 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">loginTest(38451209, Jacaranda#47, success)</span>
+                <span class="method-start">18913 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AccountTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21620 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">21833 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22223 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">22987 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest(61844027, Quartz!61, success)</span>
+                <span class="method-start">26992 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyAmountInReviewPage</span>
+                <span class="method-start">27046 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">29503 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">29912 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">31198 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">loginTest(92718463, wrong123, failure)</span>
+                <span class="method-start">36741 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">39597 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">39691 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">41018 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyFundTransferFlow</span>
+                <span class="method-start">43695 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">logoutTest</span>
+                <span class="method-start">47648 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">48720 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.AuthTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">51528 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52421 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransactionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">52560 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyInvalidAmount</span>
+                <span class="method-start">56536 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransactionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptySearch</span>
+                <span class="method-start">57263 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">62644 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">66059 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyMandatoryFields</span>
+                <span class="method-start">70437 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransactionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">71605 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">72909 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransferTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">74042 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.FormValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">75217 ms</span>
+              </div> <!-- configuration-method before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransactionTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifySearchTransaction</span>
+                <span class="method-start">78554 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.FormValidationTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">verifyDestinationMandatory</span>
+                <span class="method-start">80779 ms</span>
+              </div> <!-- test-method -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.TransactionTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">81392 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.bluledgerautomation.tests.FormValidationTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">83408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">83758 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyEmptyFormValidation</span>
+                <span class="method-start">85724 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87648 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup</span>
+                <span class="method-start">88575 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyReferenceMandatory</span>
+                <span class="method-start">94238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">96458 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>
